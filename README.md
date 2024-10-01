@@ -9,7 +9,7 @@ I am **Hemanth**, a [Your Role, e.g., Full Stack Developer, Data Scientist, etc.
 
 🎯 **Passionate** | 🔍 **Detail-Oriented** | 🧠 **Continuous Learner**
 
-I'm based in [Your Location], where I specialize in building full-stack applications and solving complex technical challenges. Whether working solo or as part of a team, I strive to push the limits of my knowledge and constantly improve my skills.
+I am working in [Your Location], and I have been developing full-stack apps and dealing with different complicated technical problems. Whether I'm by myself or I'm doing a project with a team, I'm dedicated to gaining new skills and enhancing my knowledge
 
 - **Location**: [Your City, Country]  
 - **Looking for**: [Collaborations, Freelance Work, Job Opportunities]  

@@ -84,15 +84,6 @@ Here’s a look at my **GitHub Statistics** and the languages I use most:
 
 ---
 
-## 📝 **Latest Blog Posts**
-
-If you’re interested in my thoughts on tech and programming, check out my recent posts:
-
-- [**Post Title 1**](https://yourblog.com/post-1) – A brief description of the post
-- [**Post Title 2**](https://yourblog.com/post-2) – A brief description of the post
-
----
-
 ## 📫 **Get in Touch**
 
 I love connecting with fellow developers and tech enthusiasts. Feel free to reach out to me!

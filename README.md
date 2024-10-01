@@ -89,8 +89,8 @@ Here’s a look at my **GitHub Statistics** and the languages I use most:
 
 I love connecting with fellow developers and tech enthusiasts. Feel free to reach out to me!
 
-- **Email**: [youremail@example.com](mailto:youremail@example.com)
-- **LinkedIn**: [Connect with me](https://linkedin.com/in/yourprofile)
+- **Email**: [hemanthnaika12@gmail.com](mailto:youremail@example.com)
+- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/hemanth-naika/)
 - **Portfolio**: [Visit My Portfolio](https://yourportfolio.com)
 
 ---

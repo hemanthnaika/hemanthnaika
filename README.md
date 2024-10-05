@@ -10,6 +10,7 @@
 # 💫 About Me:
 
 <img align="right" alt="coding" width="360" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"/>
+<br/>
 
 - 🔭  I’m currently working on ecomer<br>
 
@@ -36,6 +37,7 @@
 <br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=hemanthnaika&theme=dark&hide_border=false)
 <img align="right" alt="coding" width="250" src="https://raw.githubusercontent.com/7oSkaaa/7oSkaaa/main/Images/about_me.gif"/>
+<br/>
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=hemanthnaika&theme=radical&no-frame=false&no-bg=false&margin-w=4)

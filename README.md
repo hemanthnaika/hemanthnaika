@@ -9,7 +9,7 @@
 
 # 💫 About Me:
 
-<img align="right" alt="coding" width="300" src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif"/>
+<img align="right" alt="coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"/>
 
 - 🔭  I’m currently working on ecomer<br>
 

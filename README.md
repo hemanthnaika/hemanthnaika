@@ -1,4 +1,4 @@
-![Header Image](https://upload.wikimedia.org/wikipedia/commons/7/7e/Knowledge_Is_Human_Homepage_Animated_Banner.gif)
+![Header Image](https://github.com/hemanthnaika/hemanthnaika/blob/master/Banner.gif)
 
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Hemanth
 ===============================================================================================================================

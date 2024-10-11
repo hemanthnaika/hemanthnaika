@@ -1,35 +1,53 @@
-name: Snack Workflow
+# GitHub Action for generating a contribution graph with a snake eating your contributions.
+name: Generate Snake
 
+# Controls when the action will run.
 on:
+  schedule:
+      # every 12 hours
+    - cron: "0 */12 * * *"
+
+  # This command allows us to run the Action automatically from the Actions tab.
+  workflow_dispatch:
+  
+  # Also run on every push on the main branch
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+    - main
 
+# The sequence of runs in this workflow:
 jobs:
+  # This workflow contains a single job called "build"
   build:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x]
-
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - name: Checkout repository content
+        uses: actions/checkout@v3
+    
+      - name: Generate the snake files in './dist/'
+        uses: Platane/snk@v3
+        id: snake-gif
         with:
-          node-version: ${{ matrix.node-version }}
+          github_user_name: ${{ github.repository_owner }}
+        env:
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install dependencies
-        run: npm install
+      - name: Verify output directory
+        run: |
+          mkdir -p dist
+          ls dist
+      
+      - name: Show build status
+        run: git status
 
-      - name: Run Snack linting
-        run: npm run snack-lint  # Change to the actual snack command
-
-      - name: Run tests
-        run: npm test
+      - name: Push new snake files to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output  # The branch to push to
+          build_dir: dist  # Directory containing the snake output
+          commit_message: "Update snake animation"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

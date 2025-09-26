@@ -20,9 +20,8 @@ Full Stack Developer
 
 * 🌍  I'm based in India
 * ✉️  You can contact me at [hemanth@gmail.com](mailto:hemanthnaika12@gmail.com)
-* 🚀  I'm currently working on [Ecomearce]()
-* 🧠  I'm learning React Native
-* ⚡  im seact sp
+
+
 
 
 
